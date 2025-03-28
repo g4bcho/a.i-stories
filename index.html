@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прахът на бъдещето - Кацането</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        Допълнителни стилове за диалози 
+        .dialogue-container {
+            margin: 25px 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+        }
+        .dialogue-portrait {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #4e8af7;
+        }
+        .dialogue-bubble {
+            background-color: #1a1a2e;
+            padding: 15px;
+            border-radius: 10px;
+            max-width: 80%;
+            position: relative;
+        }
+        .dialogue-bubble:after {
+            content: '';
+            position: absolute;
+            left: -10px;
+            top: 20px;
+            width: 0;
+            height: 0;
+            border: 10px solid transparent;
+            border-right-color: #1a1a2e;
+        }
+        .character-name {
+            color: #4e8af7;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Прахът на бъдещето</h1>
+        <h2>Част 1: Кацането и първите загадки</h2>
+    </header>
+    
+    <section class="content">
+        <img src="images/orion9.jpg" alt="Планета Талос-3" class="location-img">
+        
+        <p>Космическият кораб "Орион-9" се спусна през атмосферата на Талос-3, преминавайки през гъсти слоеве от пурпурен прах, който затрудняваше сензорите. Кабината на командването беше обляна в червеникава светлина от индикаторите за висок риск. Мира наблюдаваше данните на екрана си, опитвайки се да компенсира отклоненията в траекторията. Елиас държеше здраво контролните лостове, докато Кай обработваше анализите в реално време.</p>
+
+        <!-- Диалог с Кай -->
+        <div class="dialogue-container">
+            <img src="images/kai.jpg" alt="Кай" class="dialogue-portrait">
+            <div class="dialogue-bubble">
+                <div class="character-name">Кай</div>
+                <p>"Гравитацията е малко по-слаба от земната, но атмосферата съдържа неизвестни елементи. По-добре да не дишате дълбоко, докато не направим пълен анализ."</p>
+            </div>
+        </div>
+
+        <p>Корабът най-сетне кацна, вдигайки облак прах, който бавно се разсея в странните ветрове на планетата. Екипът облече защитните си костюми и излезе навън, направил първите стъпки по земята на Талос-3. Пясъкът хрущеше под тежките им обувки, а на хоризонта се издигаха древни, полуразрушени структури.</p>
+
+        <!-- Диалог между Елиас и Мира -->
+        <div class="dialogue-container">
+            <img src="images/elias.jpg" alt="Елиас" class="dialogue-portrait">
+            <div class="dialogue-bubble">
+                <div class="character-name">Елиас</div>
+                <p>"Какво мислиш, Мира?"</p>
+            </div>
+        </div>
+
+        <div class="dialogue-container">
+            <img src="images/mira.jpg" alt="Мира" class="dialogue-portrait">
+            <div class="dialogue-bubble">
+                <div class="character-name">Мира</div>
+                <p>"Това място... Не изглежда напълно мъртво. Има електромагнитна активност. Нещо тук все още работи."</p>
+            </div>
+        </div>
+
+        <!-- Диалог с Кай -->
+        <div class="dialogue-container">
+            <img src="images/kai.jpg" alt="Кай" class="dialogue-portrait">
+            <div class="dialogue-bubble">
+                <div class="character-name">Кай</div>
+                <p>"Да, и не съм сигурен дали ни е приятелско. Засичам аномалии в пространствено-времевия континуум. Това не е просто изоставено място. Нещо го пази."</p>
+            </div>
+        </div>
+
+        <p>Следвайки сигналите, които ги доведоха на Талос-3, те се отправиха към най-близката структура - висока кула, напукана от времето, но все още внушителна. На входа ѝ имаше символи, които сякаш бяха гравирани вчера. Когато Елиас протегна ръка да ги докосне, почувства странно мравучкане по кожата си.</p>
+
+        <!-- Последен диалог -->
+        <div class="dialogue-container">
+            <img src="images/elias.jpg" alt="Елиас" class="dialogue-portrait">
+            <div class="dialogue-bubble">
+                <p>"Тук започва мистерията", прошепна той.</p>
+            </div>
+        </div>
+
+        <div class="characters">
+            <div class="character">
+                <img src="images/elias.jpg" alt="Елиас Кордън">
+                <p><strong>Елиас Кордън</strong>: Астронавтът, който носи тежестта на минали провали.</p>
+            </div>
+            <div class="character">
+                <img src="images/mira.jpg" alt="Мира Ноа">
+                <p><strong>Мира Ноа</strong>: Ученият, който вижда невидимото.</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <a href="part2.html" class="nav-button">Напред →</a>
+    </footer>
+</body>
+</html>
