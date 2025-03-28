@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Прахът на бъдещето - Завръщането</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .dialogue-container {
+            margin: 25px 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+        }
+        .dialogue-portrait {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #4e8af7;
+        }
+        .dialogue-bubble {
+            background-color: #1a1a2e;
+            padding: 15px;
+            border-radius: 10px;
+            max-width: 80%;
+            position: relative;
+        }
+        .dialogue-bubble:after {
+            content: '';
+            position: absolute;
+            left: -10px;
+            top: 20px;
+            width: 0;
+            height: 0;
+            border: 10px solid transparent;
+            border-right-color: #1a1a2e;
+        }
+        .character-name {
+            color: #4e8af7;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .time-collapse {
+            text-align: center;
+            margin: 30px 0;
+            position: relative;
+        }
+        .time-collapse img {
+            max-width: 100%;
+            border-radius: 8px;
+            border: 2px solid #ff5555;
+        }
+        .time-collapse p {
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            color: white;
+            background-color: rgba(0,0,0,0.7);
+            padding: 5px;
+            margin: 0;
+        }
+        .epilogue {
+            background-color: #0a0a1a;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 30px;
+            border-left: 5px solid #4e8af7;
+        }
+        .transition-text {
+            font-style: italic;
+            text-align: center;
+            margin: 30px 0;
+            color: #ff5555;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Прахът на бъдещето</h1>
+        <h2>Част 3: Разпадането на времето</h2>
+    </header>
+    
+    <section class="content">
+        <p>Когато светлината изчезна, пространството около тях се трансформира. Първоначално, всичко изглеждаше като хаос – странни и неразпознаваеми форми и цветове плуваха около тях, сякаш самото пространство беше разбъркано и изкривено. Мира стисна очила си, а Елиас погледна към Кай, който беше на крачка от тях, все още със сините си очи, които сияеха в мракa.</p>
+
+        <!-- Диалог с Мира -->
+        <div class="dialogue-container">
+            <img src="images/mira3.jpg" alt="Мира" class="dialogue-portrait">
+            <div class="dialogue-bubble">
+                <div class="character-name">Мира</div>
+                <p>"Къде сме?"</p>
+            </div>
+        </div>
+
+        <!-- Диалог с Елиас -->
+        <div class="dialogue-container">
+            <img src="images/elias3.jpg" alt="Елиас" class="dialogue-portrait">
+            <div class="dialogue-bubble">
+                <div class="character-name">Елиас</div>
+                <p>"Това не е планетата Талос-3. Това изглежда... по-скоро като нещо, което не е свързано с физическите ни закони. Може би сме попаднали в паралелна вселена."</p>
+            </div>
+        </div>
+
+        <p>Първоначално те не виждаха нищо конкретно освен смътни форми и странни, нестабилни изгледи. Въздухът беше различен, а температурата много по-висока, отколкото на планетата. Земята, ако въобще можеше да се нарече така, беше черна и лъскава, сякаш изглеждаше като част от сянка на някаква по-голяма форма.</p>
+
+        <!-- Диалог с Кай -->
+        <div class="dialogue-container">
+            <img src="images/kai2.jpg" alt="Кай" class="dialogue-portrait">
+            <div class="dialogue-bubble">
+                <div class="character-name">Кай</div>
+                <p>"Какво е това?"</p>
+            </div>
+        </div>
+
+        <!-- Диалог с Мира -->
+        <div class="dialogue-container">
+            <img src="images/mira3.jpg" alt="Мира" class="dialogue-portrait">
+            <div class="dialogue-bubble">
+                <div class="character-name">Мира</div>
+                <p>"Времето тук не тече по същия начин като при нас. Това е реалност, създадена от квантови аномалии. Времето тук се пречупва и вие е възможно да не помните следващия момент, както и да не разберете какъв е миналият."</p>
+            </div>
+        </div>
+
+        <p>Изведнъж се появи прозорец в небето, и вътре в него те видяха отблясъци от руини и механизми, които не можеха да разпознаят. Външните стени на тези структури изглеждаха подобни на тези в кулата на Талос-3, но сякаш бяха били разрушени по време на някакво мащабно събитие. Виждаха обаче и фигури, които се движиха по тези руини. Тяхната форма беше неясна, но в тях имаше нещо почти човешко.</p>
+
+        <!-- Диалог с Елиас -->
+        <div class="dialogue-container">
+            <img src="images/elias3.jpg" alt="Елиас" class="dialogue-portrait">
+            <div class="dialogue-bubble">
+                <div class="character-name">Елиас</div>
+                <p>"Кой е там?"</p>
+            </div>
+        </div>
+
+        <!-- Диалог с Мира -->
+        <div class="dialogue-container">
+            <img src="images/mira3.jpg" alt="Мира" class="dialogue-portrait">
+            <div class="dialogue-bubble">
+                <div class="character-name">Мира</div>
+                <p>"Това е... несъществуващо. Тези същества или технологии... те не би трябвало да са тук."</p>
+            </div>
+        </div>
+
+        <!-- Диалог с Кай -->
+        <div class="dialogue-container">
+            <img src="images/kai2.jpg" alt="Кай" class="dialogue-portrait">
+            <div class="dialogue-bubble">
+                <div class="character-name">Кай</div>
+                <p>"Това... това е паметта на цивилизация. Тези същества - те са оставили нещо след себе си. Нещо, което е било тук преди милиони години."</p>
+            </div>
+        </div>
+
+        <p>Елиас обаче знаеше, че в момента е не само на края на вселената, но и на самата същност на времето. Те бяха попаднали в нещо много повече от паралелни светове или древни технологии. Това беше мястото, в което времето не просто минаваше - то се съществуваше в множество паралелни форми.</p>
+
+        <!-- Диалог с Мира -->
+        <div class="dialogue-container">
+            <img src="images/mira3.jpg" alt="Мира" class="dialogue-portrait">
+            <div class="dialogue-bubble">
+                <div class="character-name">Мира</div>
+                <p>"Тези руини не са само строежи. Те изглеждат като спомен. Спомен за цивилизация, която е прескочила времето и съществувала тук, във всички тези измерения."</p>
+            </div>
+        </div>
+
+        <!-- Диалог с Елиас -->
+        <div class="dialogue-container">
+            <img src="images/elias3.jpg" alt="Елиас" class="dialogue-portrait">
+            <div class="dialogue-bubble">
+                <div class="character-name">Елиас</div>
+                <p>"И какво ни очаква?"</p>
+            </div>
+        </div>
+
+        <!-- Диалог с Кай -->
+        <div class="dialogue-container">
+            <img src="images/kai2.jpg" alt="Кай" class="dialogue-portrait">
+            <div class="dialogue-bubble">
+                <div class="character-name">Кай</div>
+                <p>"Няма да можем да се върнем, ако не разберем какво точно е станало тук. Но това, което открием тук, може да променя всичко. Дори да разкъса самата тъкан на времето."</p>
+            </div>
+        </div>
+
+        <!-- Разпадане на времето -->
+        <div class="time-collapse">
+            <img src="images/temple-collapse.jpg" alt="Разрушение на храма">
+            <p><em>Кристалната структура започна да вибрира...</em></p>
+        </div>
+
+        <p class="transition-text">Всичко около тях се разпадна в нищото, а светлината ги обгърна като буря.</p>
+
+        <!-- Епилог -->
+        <div class="epilogue">
+            <h3>Епилог</h3>
+            <p>Елиас се събуди на борда на "Орион-9", като изведнъж разбра, че се намира в командната кабина. Погледна към екрана и видя, че корабът е върнат в нормалната си орбита около Талос-3.</p>
+
+            <!-- Диалог в епилога -->
+            <div class="dialogue-container">
+                <img src="images/elias3.jpg" alt="Елиас" class="dialogue-portrait">
+                <div class="dialogue-bubble">
+                    <div class="character-name">Елиас</div>
+                    <p>"Това беше... кошмар?"</p>
+                </div>
+            </div>
+
+            <div class="dialogue-container">
+                <img src="images/mira3.jpg" alt="Мира" class="dialogue-portrait">
+                <div class="dialogue-bubble">
+                    <div class="character-name">Мира</div>
+                    <p>"Не беше кошмар. Това беше истинско. Но времето е странно място. Променя се."</p>
+                </div>
+            </div>
+
+            <div class="dialogue-container">
+                <img src="images/kai2.jpg" alt="Кай" class="dialogue-portrait">
+                <div class="dialogue-bubble">
+                    <div class="character-name">Кай</div>
+                    <p>"Но поне не се наложи да спасяваме вселената. Или, поне, не още."</p>
+                </div>
+            </div>
+
+            <p>Техните сърца биеха бързо, знаейки, че тайната на Талос-3 е все още там, чакаща да бъде разгадана.</p>
+        </div>
+    </section>
+    
+    <footer>
+        <a href="part2.html" class="nav-button">← Назад</a>
+    </footer>
+</body>
+</html>
